@@ -1,8 +1,21 @@
-# React + Vite
+# Pagination App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple pagination app built with React and Vite. This app allows users to paginate through a list of blogs retrieved from an API endpoint.
 
-Currently, two official plugins are available:
+![React Pagination App Screenshot](/public/image.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **Pagination**: Navigate through pages of data using pagination controls.
+- **API Integration**: Fetch data from an API endpoint to dynamically populate the pagination.
+
+## Start the development server
+
+```bash
+npm run dev
+```
+
+## Usage
+
+- Navigate through pages using the pagination controls.
+- Click on a specific page number to jump directly to that page.
